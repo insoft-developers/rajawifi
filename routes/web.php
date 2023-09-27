@@ -15,4 +15,12 @@ use App\Http\Controllers\HomeController;
 */
 
 Route::get('/', [HomeController::class, 'index']);
+Route::get('/product', [HomeController::class, 'product']);
+Route::get('/promo', [HomeController::class, 'promo']);
+Route::get('/latest', [HomeController::class, 'latest']);
+Route::get('/press', [HomeController::class, 'press']);
+Route::get('/blog', [HomeController::class, 'blog']);
+Route::get('/about', [HomeController::class, 'about']);
+Route::get('/faq', [HomeController::class, 'faq']);
+Route::get('/payment', [HomeController::class, 'payment']);
 

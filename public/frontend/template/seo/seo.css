@@ -317,7 +317,9 @@ input.switch-toggle-round + label::after { border-radius: 4px }
 		margin-top: 15px;
 	}
 
-	#header:not(.sticky-header) #header-wrap > .container { box-shadow: var(--headerboxshadow, 0 0 10px 5px rgba(0, 0, 0, 0.05)) }
+	#header:not(.sticky-header) #header-wrap > .container { 
+		border-radius: 5px;
+		box-shadow: var(--headerboxshadow, 0 0 10px 5px rgba(0, 0, 0, 0.05)) }
 
 	.menu-link {
 		text-transform: none;

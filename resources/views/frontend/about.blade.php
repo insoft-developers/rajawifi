@@ -33,18 +33,18 @@
             <div class="container py-4">
                 <div class="heading-block border-bottom-0 center">
 
-                    
+
                 </div>
 
                 <div class="row mt-5 clearfix">
                     <div class="col-md-6">
-                    <h3 class="nott ls0 text-title">Tentang Kami</h3>
-                    <p>RAJAWIFI hadir untuk mengoptimalkan aktivitas digital kita semua dengan layanan internet yang
-                        Stabil Dan Handal.
-                        <br>
-                        Jelajahi internet dengan bebas dan tanpa khawatir akan jaringan yang tidak stabil dengan
-                        kualitas koneksi yang terpercaya dan layanan customer service yang siap siaga.
-                    </p>
+                        <h3 class="nott ls0 text-title">Tentang Kami</h3>
+                        <p>RAJAWIFI hadir untuk mengoptimalkan aktivitas digital kita semua dengan layanan internet yang
+                            Stabil Dan Handal.
+                            <br>
+                            Jelajahi internet dengan bebas dan tanpa khawatir akan jaringan yang tidak stabil dengan
+                            kualitas koneksi yang terpercaya dan layanan customer service yang siap siaga.
+                        </p>
                     </div>
                     <div class="col-md-6">
                         <iframe style="border-radius:10px;" width="853" height="480"

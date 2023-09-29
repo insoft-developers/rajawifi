@@ -41,4 +41,20 @@ class HomeController extends Controller
     public function payment() {
         return view('frontend.payment');
     }
+
+    public function contact() {
+        return view('frontend.contact');
+    } 
+
+    public function privacy() {
+        return view('frontend.privacy');
+    }
+
+    public function term() {
+        return view('frontend.term');
+    }
+
+    public function coverage() {
+        return view('frontend.coverage');
+    }
 }

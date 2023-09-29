@@ -23,4 +23,8 @@ Route::get('/blog', [HomeController::class, 'blog']);
 Route::get('/about', [HomeController::class, 'about']);
 Route::get('/faq', [HomeController::class, 'faq']);
 Route::get('/payment', [HomeController::class, 'payment']);
+Route::get('/contact', [HomeController::class, 'contact']);
+Route::get('/privacy', [HomeController::class, 'privacy']);
+Route::get('/term', [HomeController::class, 'term']);
+Route::get('/coverage', [HomeController::class, 'coverage']);
 

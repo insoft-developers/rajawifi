@@ -209,7 +209,7 @@
                 <div class="heading-block border-bottom-0 center">
                     <h5 class="ls1 mb-1">Cek Area</h5>
                     <h2 class="nott ls0">Cek Area Apakah Sudah <span> Tercover atau Belum</span></h2>
-                    <a href="demo-seo-contact.html" class="button button-large button-rounded nott ms-0 ls0 mt-4">Cek
+                    <a href="{{ url('coverage') }}" class="button button-large button-rounded nott ms-0 ls0 mt-4">Cek
                         Area</a>
                 </div>
             </div>
@@ -521,58 +521,58 @@
                 <div class="row">
                     <div class="col-md-4">
                         <p class="payment-title">Metode Pembayaran</p>
-                        <div class="payment-item">
+                        <a href="{{ url('payment') }}/#snav-content1"><div class="payment-item">
                             <img class="payment-image"
                                 src="{{ asset('frontend/template/images/pembayaran') }}/kartu.jpg">
                             <p class="payment-name">Credit/Debit Card</p>
-                        </div>
+                        </div></a>
                     </div>
                     <div class="col-md-4">
                         <p class="payment-title">Virtual Account</p>
-                        <div class="payment-item">
+                        <a href="{{ url('payment') }}/#snav-content2"><div class="payment-item">
                             <img class="payment-image"
                                 src="{{ asset('frontend/template/images/pembayaran') }}/mandiri.jpg">
                             <p class="payment-name">Bank Mandiri</p>
-                        </div>
-                        <div class="payment-item">
+                        </div></a>
+                        <a href="{{ url('payment') }}/#snav-content2"><div class="payment-item">
                             <img class="payment-image" src="{{ asset('frontend/template/images/pembayaran') }}/bni.jpg">
                             <p class="payment-name">Bank BNI</p>
-                        </div>
-                        <div class="payment-item">
+                        </div></a>
+                        <a href="{{ url('payment') }}/#snav-content2"><div class="payment-item">
                             <img class="payment-image" src="{{ asset('frontend/template/images/pembayaran') }}/bri.jpg">
                             <p class="payment-name">Bank BRI</p>
-                        </div>
-                        <div class="payment-item">
+                        </div></a>
+                        <a href="{{ url('payment') }}/#snav-content2"><div class="payment-item">
                             <img class="payment-image" src="{{ asset('frontend/template/images/pembayaran') }}/bca.jpg">
                             <p class="payment-name">Bank BCA</p>
-                        </div>
-                        <div class="payment-item">
+                        </div></a>
+                        <a href="{{ url('payment') }}/#snav-content2"><div class="payment-item">
                             <img class="payment-image"
                                 src="{{ asset('frontend/template/images/pembayaran') }}/bersama.jpg">
                             <p class="payment-name">ATM Bersama</p>
-                        </div>
+                        </div></a>
                     </div>
                     <div class="col-md-4">
                         <p class="payment-title">E-Wallet</p>
-                        <div class="payment-item">
+                        <a href="{{ url('payment') }}/#snav-content5"><div class="payment-item">
                             <img class="payment-image"
                                 src="{{ asset('frontend/template/images/pembayaran') }}/gopay.jpg">
                             <p class="payment-name">GoPay</p>
-                        </div>
-                        <div class="payment-item">
+                        </div></a>
+                        <a href="{{ url('payment') }}/#snav-content5"><div class="payment-item">
                             <img class="payment-image"
                                 src="{{ asset('frontend/template/images/pembayaran') }}/shopee.jpg">
                             <p class="payment-name">Shopee Pay</p>
-                        </div>
-                        <div class="payment-item">
+                        </div></a>
+                        <a href="{{ url('payment') }}/#snav-content5"><div class="payment-item">
                             <img class="payment-image" src="{{ asset('frontend/template/images/pembayaran') }}/ovo.jpg">
                             <p class="payment-name">OVO</p>
-                        </div>
-                        <div class="payment-item">
+                        </div></a>
+                        <a href="{{ url('payment') }}/#snav-content5"><div class="payment-item">
                             <img class="payment-image"
                                 src="{{ asset('frontend/template/images/pembayaran') }}/dana.jpg">
                             <p class="payment-name">Dana</p>
-                        </div>
+                        </div></a>
 
                     </div>
                 </div>

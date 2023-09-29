@@ -38,8 +38,8 @@
 
     <style>
     body {
-        font-family: 'Poppins', sans-serif !important;
-        ;
+        font-family: "prompt-regular", Arial, Helvetica, sans-serif;
+       
     }
 
     .location-modal-icon {
